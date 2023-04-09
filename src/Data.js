@@ -1,28 +1,40 @@
 export const SkillsData = [
-    {
-        skill: 'React',
-        value: 77,
+    [
+        {
+            skill: 'React',
+            value: 77,
+        },
+        {
+            skill: 'JavaScript',
+            value: 88,
+        },
+        {
+            skill: 'Bootstrap',
+            value: 61,
+        },
+        {
+            skill: 'Tailwind',
+            value: 78,
+        },
+    ],
+    [
+            {
+        skill: 'Figma',
+        value: 60,
     },
     {
-        skill: 'Tailwind',
-        value: 65,
-    },
-    {
-        skill: 'Bootstrap',
-        value: 61,
-    },
-    {
-        skill: 'HTML',
-        value: 92,
-    },
-    {
-        skill: 'CSS',
-        value: 89,
+        skill: 'Adobe XD',
+        value: 56,
     },
     {
         skill: 'Photoshop',
         value: 80,
+    },
+    {
+        skill: 'Illustrator',
+        value: 75,
     }
+    ]
 ]
 
 export const projectData = [

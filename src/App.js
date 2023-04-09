@@ -1,5 +1,6 @@
 import React from "react";
-import './App.css'
+import './App.css';
+import Nav from "./Components/Nav";
 import Header from './Components/Header';
 import About from "./Components/About";
 import Skills from "./Components/Skills";
@@ -11,6 +12,7 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <main>
+      <Nav />
       <Header />
       <About />
       <Skills />
