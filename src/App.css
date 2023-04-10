@@ -551,7 +551,7 @@ footer {
 
     nav {
         padding: 0 140px;
-        height: 80px;
+        height: 5ne0px;
         box-shadow: 0 3px 8px rgba(0,0,0,0.2);
     }
 
@@ -689,12 +689,6 @@ footer {
         margin-right: 45px;
         background-color: var(--secondary-color) ;
     }
-
-    .fa-code, .fa-pen-nib {
-        /* color: white;
-        font-size: 5rem; */
-    }
-
     .skill-icon-container i {
         color: white;
         font-size: 5rem;
@@ -762,19 +756,11 @@ footer {
     .contact-container {
         display: flex;
         justify-content: space-evenly;
-        align-items: end;
+        align-items: flex-end;
     }
 
     .map {
         width: 430px;
-    }
-
-    .phone-container {
-        /* flex-basis: 50%; */
-    }
-
-    .email-me {
-        /* flex-basis: 50%; */
     }
 
     form {
